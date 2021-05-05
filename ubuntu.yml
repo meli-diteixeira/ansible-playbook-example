@@ -1,2 +1,2 @@
-- name: installing apache2
-  apt: pkg=apache2 state=present
+- name: installing python3
+  apt: pkg=python3 state=present
