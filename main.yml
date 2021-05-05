@@ -1,7 +1,6 @@
 ---
-- hosts: aws
-  remote_user: myuser
-  become: true
+- name: run playbook test
+  hosts: all
   tasks:
   - name: Performing Tasks for CentOS
     include_tasks: centos.yml
