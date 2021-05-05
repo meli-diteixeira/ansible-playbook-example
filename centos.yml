@@ -1,3 +1,3 @@
 ---
-- name: installing httpd
-  yum: pkg=httpd state=present
+- name: installing python3
+  yum: pkg=python3 state=present
